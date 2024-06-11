@@ -2831,7 +2831,7 @@ padding-top: 138px;
 
 /* ==========================================================================About========================================================================== */
 .about-image {
-height:400px;
+height:600px;
 -webkit-background-size:cover;
 -moz-background-size:cover;
 -o-background-size:cover;
@@ -2920,6 +2920,3 @@ color: #8C8C8C;
   bottom: -1.5rem;
   color: #fb813f;
 }
-
-
-
