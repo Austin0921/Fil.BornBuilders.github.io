@@ -2034,8 +2034,28 @@ section
   border: 2px solid var(--color-primary);
 }
 
+.btn-get-started {
+
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  display: inline-block;
+  color: black;
+  border: 2px solid var(--color-primary);
+}
+
 .hero .info .btn-get-started:hover {
   background: var(--color-primary);
+}
+
+.btn-get-started:hover {
+  background: var(--color-primary);
+  color: #fff;
 }
 
 .hero .carousel-control-prev {
@@ -2882,9 +2902,10 @@ color: #8C8C8C;
   top: 0;
   left: 0;
   text-align: center;
-  background: #FFFFFF;
+  background: #fb813f;
   box-shadow: 0 0 45px rgba(0, 0, 0, .06);
   transition: .5s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   z-index: 2;
 }
 
@@ -2919,4 +2940,148 @@ color: #8C8C8C;
 .service-item:hover .service-btn {
   bottom: -1.5rem;
   color: #fb813f;
+}
+
+
+.main_product .carousel-control{
+  background-color: #fff;
+  color:#333;
+  border-radius: 50%;
+  width:50px;
+  height: 50px;
+  line-height: 50px;
+  font-size:1rem;
+  text-align: center;
+  top:30%;
+}
+.main_product .carousel-control:hover{
+  background-color: #00a885;
+  color:#fff;
+}
+.main_product .carousel-control.left{
+  left:-1.4%;
+  box-shadow: -1px 0px 0px 0px;
+}
+.main_product .carousel-control.right {
+  right:-1.4%;
+  box-shadow: 1px 0px 0px 0px;
+}
+
+.main_product .port_img{
+  position: relative;
+  overflow: hidden;
+}
+
+.main_product .port_img img{
+  width:100%;
+}
+.main_product .port_overlay{
+  width:100%;
+  height: 100%;
+  background-color: rgba(0,168,133,0.60);
+  position: absolute;
+  left:0;
+  top:0;
+  padding-top: 35%;
+  opacity: 0;
+  transition: all 0.2s;
+}
+.main_product .port_overlay a{
+  width:40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  color:#fff;
+  border:1px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size:2rem;
+  bottom: -150px;
+  position: relative;
+}
+.main_product .port_img:hover .port_overlay a{
+  bottom:0;
+}
+.main_product .port_img:hover .port_overlay{
+  opacity: 1;
+}
+
+
+/** product section **/
+.product {
+	background: #fff;
+	padding-top: 60px;
+
+}
+
+.product .title {
+	text-align:left;
+	padding-bottom: 60px;
+}
+
+.product .title h2 {
+	font-size: 50px;
+	line-height: 55px;
+	color:#ffc221;
+	font-weight: 500;
+	text-transform: uppercase;
+    margin-bottom: 27px;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.product .title h2:after {
+	position: absolute;
+    border-bottom: #000 solid 10px;
+    content: '';
+    top: 100%;
+    width: 110px;
+}
+
+.product .title span{
+color:#070500;
+font-size: 22px;
+line-height: 28px;
+margin-top: 20px;
+}
+
+.product-bg {
+	background: url(assets/img/Vehicle/447729066_477538514750055_7538916937182533762_n.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.product-bg-white {
+	background: #ffffffbd;
+	box-shadow: #00000040 0px 0px 25px 0px;
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+ .product-bg .product-bg-white .product-box {
+ 	background: #ddd;
+ 	text-align: center;
+ 	margin-bottom: 30px;
+ 	padding: 20px 25px;
+
+ }
+ .product-bg .product-bg-white .product-box i img {width: 100%;}
+ .product-bg .product-bg-white .product-box:hover {
+ 	background: #fdc24f;
+ }
+
+ .product-bg .product-bg-white .product-box  h3 {
+ 	color: #020000;
+ 	font-weight: 500;
+ 	font-size: 17px;
+ 	line-height: 20px;
+ 	padding-top: 15px;
+ }
+
+ .product-bg .product-bg-white .product-box span {
+ 	color: #020000;
+ 	font-weight: 500;
+ 	font-size: 22px;
+ 	line-height: 22px;
+ }
+.product-bg .product-bg-white .product-box span:hover {
+	color: #fff;
 }
